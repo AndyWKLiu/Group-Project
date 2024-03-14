@@ -1110,20 +1110,20 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Settings",
+      "name": "Credits",
       "type": "structure",
       "children": [
         {
           "folded": true,
-          "name": "Music",
-          "type": "number",
-          "value": 50
+          "name": "Credits1",
+          "type": "string",
+          "value": "How To Make A Game - Step By Step Tutorial - GDevelop (YouTube Playlist)"
         },
         {
           "folded": true,
-          "name": "Sound",
-          "type": "number",
-          "value": 50
+          "name": "Credits2",
+          "type": "string",
+          "value": ""
         }
       ]
     },
@@ -1166,7 +1166,7 @@
               "name": "Play"
             },
             {
-              "name": "Settings"
+              "name": "Credits"
             },
             {
               "name": "Back"
@@ -1186,21 +1186,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 357,
-          "customSize": true,
-          "height": 127,
-          "layer": "Title",
-          "name": "Title",
-          "persistentUuid": "e085a9cb-0111-4e77-9c02-bf87d81facd0",
-          "width": 379,
-          "x": 197,
-          "y": 23,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -1234,12 +1219,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 42,
+          "depth": 1,
+          "height": 34,
           "layer": "",
-          "name": "Settings",
+          "name": "Credits",
           "persistentUuid": "d1231d80-7115-4993-b707-58f2c85c8c5c",
-          "width": 206,
-          "x": 281,
+          "width": 199,
+          "x": 288,
           "y": 254,
           "zOrder": 4,
           "numberProperties": [],
@@ -1257,81 +1243,6 @@
           "x": 0,
           "y": 0,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 76,
-          "layer": "",
-          "name": "SoundVolume",
-          "persistentUuid": "577f5311-3be9-4c31-a8cd-b80b8d65ffa8",
-          "width": 138,
-          "x": 1211,
-          "y": 146,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "name": "MusicVolume",
-          "persistentUuid": "d0861843-5053-486e-ae25-db876e6903aa",
-          "width": 138,
-          "x": 1211,
-          "y": 242,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 28,
-          "layer": "",
-          "name": "SoundSlider",
-          "persistentUuid": "2fb11ddd-f78f-4f3d-95eb-2c2362981c57",
-          "width": 384,
-          "x": 1088,
-          "y": 192,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "name": "MusicSlider",
-          "persistentUuid": "0f5e7ef3-7df4-465f-88ef-79e2321de786",
-          "width": 384,
-          "x": 1088,
-          "y": 288,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 76,
-          "layer": "",
-          "name": "Back",
-          "persistentUuid": "7b3e103f-83ec-4cac-874f-195e4e36f73d",
-          "width": 110,
-          "x": 1225,
-          "y": 352,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1365,6 +1276,68 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Credits1",
+          "persistentUuid": "821bbaee-44ad-4909-b461-676d612faa98",
+          "width": 672,
+          "x": 928,
+          "y": 128,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Credits2",
+          "persistentUuid": "a5759052-a38f-467b-9186-b78f3efcf4fb",
+          "width": 704,
+          "x": 928,
+          "y": 224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Back",
+          "persistentUuid": "b8d8cc3f-998d-4a33-b48b-d04784b427c0",
+          "width": 0,
+          "x": 1184,
+          "y": 352,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 357,
+          "customSize": true,
+          "height": 127,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "769c65e7-89f8-440f-b8fd-62c271381b8c",
+          "width": 379,
+          "x": 130,
+          "y": 55,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1376,7 +1349,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Title",
+            "text": "LEGACY",
             "opacity": 255,
             "scale": 6,
             "fontSize": 20,
@@ -1426,13 +1399,13 @@
             "tint": "255;255;255",
             "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
             "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
-            "align": "left",
+            "align": "center",
             "wordWrap": true
           }
         },
         {
           "assetStoreId": "",
-          "name": "Settings",
+          "name": "Credits",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [
@@ -1462,20 +1435,20 @@
             }
           ],
           "content": {
-            "text": "Settings",
+            "text": "Credits",
             "opacity": 255,
             "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
             "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
-            "align": "left",
+            "align": "center",
             "wordWrap": true
           }
         },
         {
           "assetStoreId": "",
-          "name": "SoundVolume",
+          "name": "Credits1",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
@@ -1492,20 +1465,20 @@
             }
           ],
           "content": {
-            "text": "Sound",
+            "text": "How To Make A Game - Step By Step Tutorial - GDevelop (YouTube Playlist)",
             "opacity": 255,
-            "scale": 2,
+            "scale": 1,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
             "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
-            "align": "left",
+            "align": "center",
             "wordWrap": true
           }
         },
         {
           "assetStoreId": "",
-          "name": "MusicVolume",
+          "name": "Credits2",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
@@ -1522,14 +1495,14 @@
             }
           ],
           "content": {
-            "text": "Music",
+            "text": "Crypt of the NecroDancer OST - Konga Conga Kappa (King Conga) (YouTube Video)",
             "opacity": 255,
-            "scale": 2,
+            "scale": 1,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
             "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
-            "align": "left",
+            "align": "center",
             "wordWrap": true
           }
         },
@@ -1615,7 +1588,7 @@
             "tint": "255;255;255",
             "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
             "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
-            "align": "left",
+            "align": "center",
             "wordWrap": true
           }
         },
@@ -1876,13 +1849,13 @@
             "objectName": "Play"
           },
           {
-            "objectName": "Settings"
+            "objectName": "Credits"
           },
           {
-            "objectName": "SoundVolume"
+            "objectName": "Credits1"
           },
           {
-            "objectName": "MusicVolume"
+            "objectName": "Credits2"
           },
           {
             "objectName": "Back"
@@ -1963,7 +1936,7 @@
               },
               "parameters": [
                 "VariableString(TempSettings)",
-                "Settings"
+                "Credits"
               ]
             },
             {
@@ -1973,7 +1946,7 @@
               "parameters": [
                 "SoundSlider",
                 "=",
-                "GlobalVariable(Settings.Sound)",
+                "GlobalVariable(Credits.Sound)",
                 ""
               ]
             },
@@ -1984,7 +1957,7 @@
               "parameters": [
                 "MusicSlider",
                 "=",
-                "GlobalVariable(Settings.Music)",
+                "GlobalVariable(Credits.Music)",
                 ""
               ]
             },
@@ -2087,7 +2060,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "Settings.Sound",
+                "Credits.Sound",
                 "=",
                 "SoundSlider.Value()"
               ]
@@ -2113,7 +2086,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "Settings.Music",
+                "Credits.Music",
                 "=",
                 "MusicSlider.Value()"
               ]
@@ -2224,7 +2197,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "Settings",
+                "Credits",
                 "ButtonFSM",
                 ""
               ]
@@ -2283,7 +2256,7 @@
               "parameters": [
                 "\"Settings\"",
                 "\"Settings\"",
-                "GlobalVarToJSON(Settings)"
+                "GlobalVarToJSON(Credits)"
               ]
             }
           ]
@@ -2355,6 +2328,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -2371,12 +2348,20 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -8076,7 +8061,7 @@
                         "",
                         "Gun",
                         "",
-                        "GlobalVariable(Settings.Sound)",
+                        "GlobalVariable(Credits.Sound)",
                         "RandomFloatInRange(0.8,1)"
                       ]
                     },
